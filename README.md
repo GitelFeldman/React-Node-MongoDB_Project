@@ -25,7 +25,7 @@
 
 ## **מבנה הפרויקט**
 
-- **Komponenta Slice לכל נושא**: הפרדה ברורה בין ניהול משתמשים, מוצרים וסל הקניות.
+- **Component Slice לכל נושא**: הפרדה ברורה בין ניהול משתמשים, מוצרים וסל הקניות.
 - **API Layer**: כל קריאות ה-API מנוהלות בקבצים ייעודיים.
 - **Routing מאובטח**: הגנה על נתיבים רגישים בהתאם להרשאות המשתמש.
 - **עיצוב רספונסיבי**: המערכת מותאמת לתצוגה במכשירים שונים.
@@ -34,7 +34,7 @@
 
 1. קלונינג הפרויקט:  
    ```bash
-   git clone https://github.com/username/project-name.git
+   git clone https://github.com/GitelFeldman/React-Node-MongoDB_Project.git
    ```
 2. התקנת התלויות:  
    ```bash
