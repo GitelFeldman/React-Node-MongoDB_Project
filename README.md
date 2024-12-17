@@ -1,50 +1,39 @@
-# 🌟 **חנות למוצרים - פרויקט סיום ב-React**
+🌟 Product Store - Final Project in React
+Project Description
+This is a final project developed as part of the React course. It is an online store for purchasing products that offers a user-friendly interface and a variety of features for product management, shopping cart functionality, and user management based on roles and permissions.
 
-## **תיאור הפרויקט**
-
-זהו פרויקט סיום שנבנה במסגרת לימודי React. מדובר בחנות מקוונת לרכישת מוצרים המציעה ממשק משתמש ידידותי ומגוון פיצ'רים לניהול מוצרים, סל קניות, וניהול משתמשים על בסיס הרשאות.
-
-## **תכונות מרכזיות בפרויקט**
-
-- **מסך כל המוצרים**: הצגת רשימת מוצרים עם אפשרות לגלילה אינסופית (infinite scroll) או ניווט בין עמודים (pagination).
-- **מסך מוצר בודד**: הצגת פרטי מוצר הכוללים 📸, 🖊️ ו-💵. ניתן ➕ מוצר לסל הקניות 🛒.
-- **מסך פרטי מוצר**: פרטי מוצר מלאים עם אפשרות להוספה ➕ לסל הקניות 🛒 והצגת קומפוננטת סל ממוזערת.
-- **סל קניות**: הצגת כל המוצרים שנבחרו עם אפשרות לעדכון כמויות, הסרה מסל, חישוב סך הכל, וסיום ההזמנה.
-- **ניהול משתמשים**: מסכי כניסה, הרשמה והתנתקות, כולל טיפול בהרשאות משתמשים (אורח, משתמש רשום, מנהל).
-- **ניהול מוצרים**: למנהלים יש יכולת למחוק או לערוך מוצרים, וכן להוסיף מוצרים חדשים.
-
-## **טכנולוגיות וכלים בהם השתמשתי**
-
-- **React.js**: לבניית ממשק המשתמש והקומפוננטות.
-- **Redux**: לניהול ה- state הגלובלי, כולל ניהול משתמשים, מוצרים וסל קניות.
-- **React Router**: לניווט בין דפי האפליקציה ולטיפול בנתיבים דינמיים.
-- **Axios**: לתקשורת עם ה-API לטעינת נתונים ושמירתם.
-- **React Hook Form**: לטיפול בטפסים בכניסה, הרשמה, והוספת מוצרים.
-- **ספריית עיצוב (Bootstrap/Material-UI)**: לעיצוב רספונסיבי וממשק משתמש מודרני.
-- **LocalStorage**: לשמירת פרטי משתמשים לאחר כניסה למערכת.
-
-## **מבנה הפרויקט**
-
-- **Component Slice לכל נושא**: הפרדה ברורה בין ניהול משתמשים, מוצרים וסל הקניות.
-- **API Layer**: כל קריאות ה-API מנוהלות בקבצים ייעודיים.
-- **Routing מאובטח**: הגנה על נתיבים רגישים בהתאם להרשאות המשתמש.
-- **עיצוב רספונסיבי**: המערכת מותאמת לתצוגה במכשירים שונים.
-
-## **איך להריץ את הפרויקט**
-
-1. קלונינג הפרויקט:  
-   ```bash
-   git clone https://github.com/GitelFeldman/React-Node-MongoDB_Project.git
-   ```
-2. התקנת התלויות:  
-   ```bash
-   npm install
-   ```
-3. הרצת הפרויקט:  
-   ```bash
-   npm start
-   ```
-
-
-בהצלחה!
+Key Features of the Project
+Product Listing Page: Displays a list of products with the option for infinite scrolling or pagination.
+Single Product Page: Displays detailed product information including images 📸, descriptions 🖊️, and prices 💵. Allows users to ➕ add products to the shopping cart 🛒.
+Product Details Page: Displays full product details with the option to ➕ add to cart 🛒, and shows a minimized shopping cart component.
+Shopping Cart: Displays all selected products with options to update quantities, remove items, calculate the total price, and complete the order.
+User Management: Includes login, registration, and logout screens, along with handling user roles and permissions (guest, registered user, admin).
+Product Management: Admins can delete or edit products and add new ones.
+Technologies and Tools Used
+React.js: For building the user interface and components.
+Redux: For managing global state, including user management, products, and shopping cart.
+React Router: For navigation between pages and handling dynamic routes.
+Axios: For communication with the API to fetch and store data.
+React Hook Form: For handling forms in login, registration, and product addition.
+Design Library (Bootstrap/Material-UI): For responsive design and modern user interface.
+LocalStorage: For storing user details after logging in.
+Project Structure
+Component Slice for Each Topic: Clear separation between user management, products, and shopping cart.
+API Layer: All API calls are managed in dedicated files.
+Secure Routing: Protection of sensitive routes based on user roles and permissions.
+Responsive Design: The system is optimized for display on various devices.
+How to Run the Project
+Clone the project:
+bash
+Copy code
+git clone https://github.com/GitelFeldman/React-Node-MongoDB_Project.git
+Install dependencies:
+bash
+Copy code
+npm install
+Run the project:
+bash
+Copy code
+npm start
+Good luck!
 
